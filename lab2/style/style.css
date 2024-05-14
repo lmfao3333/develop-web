@@ -1,0 +1,41 @@
+body {
+    background-size:contain;
+    background-repeat: repeat;
+    background-image: url("../../lab2/img/mosaic.jpg");
+}
+h1{
+    color: orangered; 
+    border: 1px solid red;
+}
+h2,h3,h4,h5{
+    color:black;
+    font-size: 200%; 
+}
+a {
+    font-family: 'Brush Script MT', cursive;
+    color: yellow;
+}
+.coca_cola{
+    list-style-type: lower-alpha;
+    color:black;
+    font-size: 200%;
+}
+.pepsi {
+    list-style-type: square;
+    color:black;
+    font-size: 200%;
+}
+.armyan {
+    list-style-type:armenian;
+    color:black;
+    font-size: 200%;
+}
+.web {
+    list-style-type:none;
+    color:black;
+    font-size: 200%;
+}
+.b-blue{
+    background: blue;
+    font-size: 200%;
+}
