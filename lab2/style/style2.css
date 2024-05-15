@@ -6,11 +6,16 @@ body{
 }
 #button1 {
 	background-color: #4caf50; /* Green */
-	color: white;
+	color: rgb(240, 222, 222);
 	padding: 15px 32px;
 	text-align: center;
 	display: inline-block;
-	border-radius: 5px;
+    border: 1px solid white;
+	border-radius: 50px;
+    
+}
+#button1:active {
+    border-color: #000 #aaa #aaa #000;
 }
 ul li {
 	background: blue;
