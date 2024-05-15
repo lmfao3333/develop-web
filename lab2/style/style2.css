@@ -1,0 +1,41 @@
+body{
+    background-image: url("../../lab2/img/background-vertical.jpg");
+    background-repeat: repeat-y;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+}
+#button1 {
+	background-color: #4caf50; /* Green */
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 5px;
+}
+ul li {
+	background: blue;
+}
+
+li + #thirditem {
+	background: yellow;
+}
+li + #thirditem {
+	background: green;
+}
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    color: red;
+}
+h2{
+    text-decoration: underline;
+}
+.semi-transparent{
+    background-color: rgba(255, 255, 255, 0.5)
+}
+.markers{
+    list-style-type: circle;
+}
+.archon:hover{
+    color: green;
+    text-decoration: none;
+}
